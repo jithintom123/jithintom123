@@ -44,17 +44,19 @@
     <div class="header-clear"></div>
     <!-- Left Top Menu -->
     
+    <!-- Top Menu Overlay-->
+    
     <ul class="top-menu">
         <li class="has-submenu">
             <a class="deploy-submenu" href="#"><i class="fa fa-cog bg-blue2"></i>Homepages<i class="fa fa-plus"></i></a>
             <ul class="submenu">
-                <li class="active-menu"><a href="index.html"><i class="fa fa-angle-right"></i>Circle Slider<i class="fa fa-circle"></i></a></li>
-                <li><a href="index2.html"><i class="fa fa-angle-right"></i>Regular Slider<i class="fa fa-circle"></i></a></li>
+                <li><a href="index.html"><i class="fa fa-angle-right"></i>Circle Slider<i class="fa fa-circle"></i></a></li>
+                <li class="active-menu"><a href="index2.html"><i class="fa fa-angle-right"></i>Regular Slider<i class="fa fa-circle"></i></a></li>
                 <li><a href="index3.html"><i class="fa fa-angle-right"></i>Fullscreen Slider<i class="fa fa-circle"></i></a></li>
                 <li><a href="index4.html"><i class="fa fa-angle-right"></i>Landing Page<i class="fa fa-circle"></i></a></li>
                 <li><a href="index5.html"><i class="fa fa-angle-right"></i>Sticky Footer<i class="fa fa-circle"></i></a></li>
             </ul>
-        </li>
+        </li>        
         <li class="has-submenu">
             <a class="deploy-submenu" href="#"><i class="fa fa-cog bg-blue1"></i>Features<i class="fa fa-plus"></i></a>
             <ul class="submenu">
@@ -111,8 +113,8 @@
         <li><a href="#" class="close-menu"><i class="fa fa-times bg-red2"></i>Close<i class="fa fa-circle"></i></a></li>  
     </ul>
     
-    <!-- Ball Footer Menu -->
-        
+    <!-- Footer Ball Menu Bottom-->
+    
     <a href="#" class="show-big-menu"><i class="fa fa-navicon bg-red2"></i></a>
     <div class="footer-menu">
         <a href="#" class="footer-menu-open">
@@ -145,29 +147,53 @@
     </div>
     <div class="menu-background"></div>
     
-    <!--Content Starts Here-->
+    <!-- Content Starts Here -->
         
-    <div class="circle-slider half-bottom">
-        <div>
-            <img src="images/slider/1.jpg" alt="img">
-            <h1>Welcome to Cricle</h1>
-            <em class="text-red1 half-bottom">A creative, mobile and tablet template!</em>
-        </div>        
-        <div>
-            <img src="images/slider/2.jpg" alt="img">
-            <h1>It's packed with features</h1>
-            <em class="text-red1 half-bottom">Mobile, tablet, and app specific styled!</em>
-        </div>        
-        <div>
-            <img src="images/slider/3.jpg" alt="img">
-            <h1>PhoneGap & Cordova</h1>
-            <em class="text-red1 half-bottom">Ready to be converted into a native app!</em>
+    <div class="slider-container full-bottom">
+        <div class="homepage-slider" data-snap-ignore="true">                
+            <div>
+                <div class="overlay"></div>
+                <div class="homepage-slider-caption homepage-left-caption">
+                    <h3>Swipe me!</h3>
+                    <p>Hope you enjoy our latest item!</p>
+                </div>
+                <img src="images/pictures/3.jpg" class="responsive-image" alt="img">
+            </div>
+            <div>
+                <div class="overlay"></div>
+                <div class="homepage-slider-caption homepage-center-caption">
+                    <h3>Slider</h3>
+                    <p>Our slider is awesome!</p>
+                </div>
+                <img src="images/pictures/5.jpg" class="responsive-image" alt="img">
+            </div>
+            <div>
+                <div class="overlay"></div>
+                <div class="homepage-slider-caption homepage-right-caption">
+                    <h3>Responsive</h3>
+                    <p>And it's fully responsive!</p>
+                </div>
+                <img src="images/pictures/6.jpg" class="responsive-image" alt="img">
+            </div>
         </div>
     </div>
     
-    <div class="content">
+    <div class="content">       
+        <div class="container large-title no-bottom">
+            <h3 class="center-text">Welcome, stranger!</h3>
+            <p class="center-text">
+                A user experience, design focused template, created to make navigating as easy and 
+                as comfortable as possible even on huge screens! Swipe to the left!
+            </p>
+
+            <div class="center-socials">
+                <a href="#" class="facebook-color facebook-social"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="google-color google-social"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="twitter-color twitter-social"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
         <div class="decoration"></div>
-    </div>
+    </div> 
         
     <!-- Content Heading -->
     <div class="content-heading">
@@ -183,7 +209,7 @@
             <!-- Page Columns-->
             <p class="thumb-column">
                 <img src="images/pictures/1s.jpg" alt="img">
-                <strong>For Mobiles & Tablets</strong>
+                <strong>Built for Mobiles & Tablets</strong>
                 <em><br>Lorem Ipsum is simply dummy text of the printing and typeset. </em>
             </p>        
             <p class="thumb-column">
@@ -198,7 +224,7 @@
             </p>            
             <p class="thumb-column">
                 <img src="images/pictures/4s.jpg" alt="img">
-                <strong>PhoneGap Ready</strong>
+                <strong>PhoneGap & Cordova Ready</strong>
                 <em><br>Lorem Ipsum is simply dummy text of the printing and typeset. </em>
             </p>            
         </div>
@@ -381,7 +407,8 @@
             Copyright 2015, <a href="#">Enabled</a><br> 
             All rights reserved.
         </p>
-    </div>
+    </div>   
+
 </div>
     
 <div class="share-bottom">
@@ -415,7 +442,7 @@
     </div>
     <a href="#" class="close-share-bottom">Close</a>
 </div>
-    
+        
 </body>
 
 
