@@ -4348,6 +4348,16 @@ table tr:hover td{
     margin-bottom:30px;
 }
 
+.slider-style-1 h4{
+    color:#FFFFFF;
+    text-align:center;
+    font-size:30px;
+	line-height:50px;
+    font-weight:700;
+    text-transform:uppercase;
+	padding-bottom:0px;
+}
+
 .slider-button-1{
     width:200px;
     margin-left:auto;
