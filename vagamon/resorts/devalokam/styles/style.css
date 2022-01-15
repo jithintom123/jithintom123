@@ -1,0 +1,89 @@
+/*---------------------------
+[Template Structure]
+
+Project:	 Circles
+Version:	 1.0
+Primary Use: Site Template 
+Layout:      Responsive
+Platforms:   Mobile & Tablet
+-----------------------------
+
+
+
+@charset "UTF-8";
+
+/* 1. General */
+
+
+body{
+    background-color:#FFFFFF;
+}
+
+.cu-header-logo{
+    width:80px;
+    height:22px;
+    background-size:100px 22px;
+    background-image:url(../images/header-logo2.png);
+    margin-top:9px;
+    float:left;
+}
+
+
+.cu-slider-image-1{background-image:url(../images/about1.jpeg);}
+.cu-slider-image-2{background-image:url(../images/about2.jpeg);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
