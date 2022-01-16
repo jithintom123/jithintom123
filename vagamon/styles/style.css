@@ -647,6 +647,7 @@ body{
     height:22px;
     background-size:100px 22px;
     margin-top:9px;
+    margin-left: 8px;
     float:left;
     font-style: bold;
     font-weight: 900;
@@ -657,7 +658,7 @@ body{
 
 
 
-
+.sup {vertical-align:super;font-size:xx-small;}
 
 
 

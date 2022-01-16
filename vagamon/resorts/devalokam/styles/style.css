@@ -20,11 +20,12 @@ body{
 }
 
 .cu-header-logo{
-    width:80px;
-    height:22px;
-    background-size:100px 22px;
-    background-image:url(../images/header-logo2.png);
-    margin-top:9px;
+    width:30px;
+    height:30px;
+    background-size:30px 30px;
+    margin-top: 12px;
+    background-image:url(../images/hill.png);
+    margin-top:3px;
     float:left;
 }
 
@@ -33,18 +34,6 @@ body{
 .cu-slider-image-2{background-image:url(../images/about2.jpeg);}
 
 
-
-.header-text{
-    width:auto;
-    height:22px;
-    background-size:100px 22px;
-    margin-top:9px;
-    float:left;
-    font-style: bold;
-    font-weight: 900;
-    color: black;
-    font-size: medium;
-}
 
 
 
