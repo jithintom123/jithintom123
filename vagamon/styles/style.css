@@ -640,8 +640,10 @@ body{
     } 
 }
 
+
+
 .header-text{
-    width:300px;
+    width:auto;
     height:22px;
     background-size:100px 22px;
     margin-top:9px;
@@ -651,9 +653,6 @@ body{
     color: black;
     font-size: medium;
 }
-
-
-
 
 
 
