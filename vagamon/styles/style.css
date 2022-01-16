@@ -652,13 +652,23 @@ body{
     font-style: bold;
     font-weight: 900;
     color: black;
-    font-size: medium;
+    white-space: nowrap;
 }
 
 
 
 
 .sup {vertical-align:super;font-size:xx-small;}
+.cu-header-logo{
+    width:30px;
+    height:30px;
+    background-size:30px 30px;
+    margin-top: 12px;
+    background-image:url(../images/header-logo.png);
+    margin-top:3px;
+    float:left;
+    
+}
 
 
 
