@@ -98,7 +98,7 @@ body{
     padding-left:30px;
     padding-right:30px;
     padding-top:20px;
-    background-color:#FFFFFF;
+    
 }
 
 .header-clear{
@@ -667,6 +667,7 @@ body{
     background-image:url(../images/header-logo.png);
     margin-top:3px;
     float:left;
+    
     
 }
 
