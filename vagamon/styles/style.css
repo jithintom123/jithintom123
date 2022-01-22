@@ -97,8 +97,7 @@ body{
     z-index:98;
     padding-left:30px;
     padding-right:30px;
-    padding-top:20px;
-    
+    padding-top:20px;    
 }
 
 .header-clear{
@@ -173,8 +172,15 @@ body{
 
 .footer{
     margin-bottom:12px;
+    color: #000;
 }
 
+.footer a
+ {
+    color: blue;  
+    background-color: transparent;
+    text-decoration: none;
+  }
 /*Homepage Settings*/
 
 @media(min-width:768px){/*
