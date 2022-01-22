@@ -2630,6 +2630,11 @@ table tr:hover td{
 	width:100%;	
 }
 
+.timeline-text .title{
+	font-family: 'Dancing Script', cursive; 
+	font-size :23px;
+}
+
 .timeline-text .subtitle{
 	font-size:11px;
 	font-style:normal;
