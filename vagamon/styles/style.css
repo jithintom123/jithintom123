@@ -742,3 +742,9 @@ body {
   margin-top: 3px;
   float: left;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 3000px) {
+  body {
+    display: none;
+  }
+}
