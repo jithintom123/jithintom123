@@ -46,8 +46,8 @@
     </div>
     <div class="header-clear"></div>
     <!-- Left Top Menu -->
-
-    <ul class="top-menu">
+<div id="bottommenu"></div>
+    <!-- <ul class="top-menu">
       <li class="">
         <a class="" href="../vagamon/resorts/devalokam/index.html"><i class="fa fa-home bg-green1"></i>Home<i
             class=""></i></a>
@@ -82,7 +82,7 @@
       <li>
         <a href="#" class="close-menu"><i class="fa fa-times bg-red2"></i>Close<i class=""></i></a>
       </li>
-    </ul>
+    </ul> -->
 
     <!-- Ball Footer Menu -->
 
@@ -208,3 +208,13 @@
     </div>
   </div>
 </body>
+
+<script type="text/javascript">
+  $(function(){
+     $('#bottommenu').load('https://mobileapp.embeddedsoft.net/vagamon/menu/menu.html'); 
+  });
+ 
+// document.addEventListener("DOMContentLoaded", function() {
+//document.getElementById('bottommenu').load('./menu/menu.html');
+//});
+</script>
